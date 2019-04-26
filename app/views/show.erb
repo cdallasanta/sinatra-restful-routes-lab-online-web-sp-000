@@ -8,7 +8,7 @@
     <h1><%= @recipe.name %></h1>
     <ul>
       <li><em><%= @recipe.cook_time %> minutes</em></li>
-      <li><%= @recipe.ingredient %></li>
+      <li><%= @recipe.ingredients %></li>
     </ul>
 
     <form action="/recipes/<%= @recipe.id %>" method="post">
